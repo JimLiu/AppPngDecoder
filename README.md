@@ -11,6 +11,8 @@
 *点击Next按钮显示列表
 *点Save All可以保存所有图片到桌面
 
-<img src="https://github.com/JimLiu/AppPngDecoder/blob/master/doc/ScreenShot1.png"/>
-<img src="https://github.com/JimLiu/AppPngDecoder/blob/master/doc/ScreenShot2.png"/>
-<img src="https://github.com/JimLiu/AppPngDecoder/blob/master/doc/ScreenShot3.png"/>
+<img src="https://github.com/JimLiu/AppPngDecoder/raw/master/doc/ScreenShot1.png"/>
+
+<img src="https://github.com/JimLiu/AppPngDecoder/raw/master/doc/ScreenShot2.png"/>
+
+<img src="https://github.com/JimLiu/AppPngDecoder/raw/master/doc/ScreenShot3.png"/>
