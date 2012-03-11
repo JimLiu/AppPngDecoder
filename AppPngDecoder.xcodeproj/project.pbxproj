@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B590E111150CC3D000832C6F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B590E110150CC3D000832C6F /* libz.dylib */; };
+		B590E13D150CC48300832C6F /* COPYING.TXT in Resources */ = {isa = PBXBuildFile; fileRef = B590E115150CC48300832C6F /* COPYING.TXT */; };
+		B590E13E150CC48300832C6F /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = B590E116150CC48300832C6F /* Credits.html */; };
+		B590E13F150CC48300832C6F /* GMAppleDouble+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E118150CC48300832C6F /* GMAppleDouble+ZKAdditions.m */; };
+		B590E140150CC48300832C6F /* COPYING.TXT in Resources */ = {isa = PBXBuildFile; fileRef = B590E11A150CC48300832C6F /* COPYING.TXT */; };
+		B590E141150CC48300832C6F /* GMAppleDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E11C150CC48300832C6F /* GMAppleDouble.m */; };
+		B590E142150CC48300832C6F /* NSData+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E11E150CC48300832C6F /* NSData+ZKAdditions.m */; };
+		B590E143150CC48300832C6F /* NSDate+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E120150CC48300832C6F /* NSDate+ZKAdditions.m */; };
+		B590E144150CC48300832C6F /* NSDictionary+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E122150CC48300832C6F /* NSDictionary+ZKAdditions.m */; };
+		B590E145150CC48300832C6F /* NSFileHandle+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E124150CC48300832C6F /* NSFileHandle+ZKAdditions.m */; };
+		B590E146150CC48300832C6F /* NSFileManager+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E126150CC48300832C6F /* NSFileManager+ZKAdditions.m */; };
+		B590E147150CC48300832C6F /* NSString+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E128150CC48300832C6F /* NSString+ZKAdditions.m */; };
+		B590E148150CC48300832C6F /* ZKArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E12A150CC48300832C6F /* ZKArchive.m */; };
+		B590E149150CC48300832C6F /* ZKCDHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E12C150CC48300832C6F /* ZKCDHeader.m */; };
+		B590E14A150CC48300832C6F /* ZKCDTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E12E150CC48300832C6F /* ZKCDTrailer.m */; };
+		B590E14B150CC48300832C6F /* ZKCDTrailer64.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E130150CC48300832C6F /* ZKCDTrailer64.m */; };
+		B590E14C150CC48300832C6F /* ZKCDTrailer64Locator.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E132150CC48300832C6F /* ZKCDTrailer64Locator.m */; };
+		B590E14D150CC48300832C6F /* ZKDataArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E134150CC48300832C6F /* ZKDataArchive.m */; };
+		B590E14E150CC48300832C6F /* ZKDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E136150CC48300832C6F /* ZKDefs.m */; };
+		B590E14F150CC48300832C6F /* ZKFileArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E138150CC48300832C6F /* ZKFileArchive.m */; };
+		B590E150150CC48300832C6F /* ZKLFHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E13A150CC48300832C6F /* ZKLFHeader.m */; };
+		B590E151150CC48300832C6F /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B590E13C150CC48300832C6F /* ZKLog.m */; };
+		B5EDA2B4150CCF9200F0D4DB /* PngFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDA2B3150CCF9200F0D4DB /* PngFilesViewController.m */; };
+		B5EDA2EA150CEB0E00F0D4DB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDA2E9150CEB0E00F0D4DB /* DetailViewController.m */; };
+		B5EDA2ED150CEC9800F0D4DB /* Checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EDA2EC150CEC9800F0D4DB /* Checkerboard.png */; };
+		B5F0702C150CA6660026E7ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F0702B150CA6660026E7ED /* UIKit.framework */; };
+		B5F0702E150CA6660026E7ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F0702D150CA6660026E7ED /* Foundation.framework */; };
+		B5F07030150CA6660026E7ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F0702F150CA6660026E7ED /* CoreGraphics.framework */; };
+		B5F07036150CA6660026E7ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5F07034150CA6660026E7ED /* InfoPlist.strings */; };
+		B5F07038150CA6660026E7ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F07037150CA6660026E7ED /* main.m */; };
+		B5F0703C150CA6660026E7ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F0703B150CA6660026E7ED /* AppDelegate.m */; };
+		B5F0703F150CA6660026E7ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F0703D150CA6660026E7ED /* MainStoryboard.storyboard */; };
+		B5F07042150CA6660026E7ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F07041150CA6660026E7ED /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B590E110150CC3D000832C6F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B590E115150CC48300832C6F /* COPYING.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.TXT; sourceTree = "<group>"; };
+		B590E116150CC48300832C6F /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		B590E117150CC48300832C6F /* GMAppleDouble+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMAppleDouble+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E118150CC48300832C6F /* GMAppleDouble+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GMAppleDouble+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E11A150CC48300832C6F /* COPYING.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.TXT; sourceTree = "<group>"; };
+		B590E11B150CC48300832C6F /* GMAppleDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMAppleDouble.h; sourceTree = "<group>"; };
+		B590E11C150CC48300832C6F /* GMAppleDouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMAppleDouble.m; sourceTree = "<group>"; };
+		B590E11D150CC48300832C6F /* NSData+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E11E150CC48300832C6F /* NSData+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E11F150CC48300832C6F /* NSDate+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E120150CC48300832C6F /* NSDate+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E121150CC48300832C6F /* NSDictionary+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E122150CC48300832C6F /* NSDictionary+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E123150CC48300832C6F /* NSFileHandle+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E124150CC48300832C6F /* NSFileHandle+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E125150CC48300832C6F /* NSFileManager+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E126150CC48300832C6F /* NSFileManager+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E127150CC48300832C6F /* NSString+ZKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZKAdditions.h"; sourceTree = "<group>"; };
+		B590E128150CC48300832C6F /* NSString+ZKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZKAdditions.m"; sourceTree = "<group>"; };
+		B590E129150CC48300832C6F /* ZKArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKArchive.h; sourceTree = "<group>"; };
+		B590E12A150CC48300832C6F /* ZKArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKArchive.m; sourceTree = "<group>"; };
+		B590E12B150CC48300832C6F /* ZKCDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDHeader.h; sourceTree = "<group>"; };
+		B590E12C150CC48300832C6F /* ZKCDHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDHeader.m; sourceTree = "<group>"; };
+		B590E12D150CC48300832C6F /* ZKCDTrailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDTrailer.h; sourceTree = "<group>"; };
+		B590E12E150CC48300832C6F /* ZKCDTrailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDTrailer.m; sourceTree = "<group>"; };
+		B590E12F150CC48300832C6F /* ZKCDTrailer64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDTrailer64.h; sourceTree = "<group>"; };
+		B590E130150CC48300832C6F /* ZKCDTrailer64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDTrailer64.m; sourceTree = "<group>"; };
+		B590E131150CC48300832C6F /* ZKCDTrailer64Locator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCDTrailer64Locator.h; sourceTree = "<group>"; };
+		B590E132150CC48300832C6F /* ZKCDTrailer64Locator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCDTrailer64Locator.m; sourceTree = "<group>"; };
+		B590E133150CC48300832C6F /* ZKDataArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDataArchive.h; sourceTree = "<group>"; };
+		B590E134150CC48300832C6F /* ZKDataArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDataArchive.m; sourceTree = "<group>"; };
+		B590E135150CC48300832C6F /* ZKDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKDefs.h; sourceTree = "<group>"; };
+		B590E136150CC48300832C6F /* ZKDefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKDefs.m; sourceTree = "<group>"; };
+		B590E137150CC48300832C6F /* ZKFileArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKFileArchive.h; sourceTree = "<group>"; };
+		B590E138150CC48300832C6F /* ZKFileArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKFileArchive.m; sourceTree = "<group>"; };
+		B590E139150CC48300832C6F /* ZKLFHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLFHeader.h; sourceTree = "<group>"; };
+		B590E13A150CC48300832C6F /* ZKLFHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLFHeader.m; sourceTree = "<group>"; };
+		B590E13B150CC48300832C6F /* ZKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLog.h; sourceTree = "<group>"; };
+		B590E13C150CC48300832C6F /* ZKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLog.m; sourceTree = "<group>"; };
+		B5EDA2B2150CCF9200F0D4DB /* PngFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PngFilesViewController.h; sourceTree = "<group>"; };
+		B5EDA2B3150CCF9200F0D4DB /* PngFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PngFilesViewController.m; sourceTree = "<group>"; };
+		B5EDA2E8150CEB0E00F0D4DB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B5EDA2E9150CEB0E00F0D4DB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B5EDA2EC150CEC9800F0D4DB /* Checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkerboard.png; sourceTree = "<group>"; };
+		B5F07027150CA6660026E7ED /* AppPngDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPngDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F0702B150CA6660026E7ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5F0702D150CA6660026E7ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5F0702F150CA6660026E7ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5F07033150CA6660026E7ED /* AppPngDecoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppPngDecoder-Info.plist"; sourceTree = "<group>"; };
+		B5F07035150CA6660026E7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5F07037150CA6660026E7ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F07039150CA6660026E7ED /* AppPngDecoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppPngDecoder-Prefix.pch"; sourceTree = "<group>"; };
+		B5F0703A150CA6660026E7ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5F0703B150CA6660026E7ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5F0703E150CA6660026E7ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B5F07040150CA6660026E7ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5F07041150CA6660026E7ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F07024150CA6660026E7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B590E111150CC3D000832C6F /* libz.dylib in Frameworks */,
+				B5F0702C150CA6660026E7ED /* UIKit.framework in Frameworks */,
+				B5F0702E150CA6660026E7ED /* Foundation.framework in Frameworks */,
+				B5F07030150CA6660026E7ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B590E113150CC48300832C6F /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				B590E114150CC48300832C6F /* ZipKit */,
+			);
+			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		B590E114150CC48300832C6F /* ZipKit */ = {
+			isa = PBXGroup;
+			children = (
+				B590E115150CC48300832C6F /* COPYING.TXT */,
+				B590E116150CC48300832C6F /* Credits.html */,
+				B590E117150CC48300832C6F /* GMAppleDouble+ZKAdditions.h */,
+				B590E118150CC48300832C6F /* GMAppleDouble+ZKAdditions.m */,
+				B590E119150CC48300832C6F /* MacFUSE */,
+				B590E11D150CC48300832C6F /* NSData+ZKAdditions.h */,
+				B590E11E150CC48300832C6F /* NSData+ZKAdditions.m */,
+				B590E11F150CC48300832C6F /* NSDate+ZKAdditions.h */,
+				B590E120150CC48300832C6F /* NSDate+ZKAdditions.m */,
+				B590E121150CC48300832C6F /* NSDictionary+ZKAdditions.h */,
+				B590E122150CC48300832C6F /* NSDictionary+ZKAdditions.m */,
+				B590E123150CC48300832C6F /* NSFileHandle+ZKAdditions.h */,
+				B590E124150CC48300832C6F /* NSFileHandle+ZKAdditions.m */,
+				B590E125150CC48300832C6F /* NSFileManager+ZKAdditions.h */,
+				B590E126150CC48300832C6F /* NSFileManager+ZKAdditions.m */,
+				B590E127150CC48300832C6F /* NSString+ZKAdditions.h */,
+				B590E128150CC48300832C6F /* NSString+ZKAdditions.m */,
+				B590E129150CC48300832C6F /* ZKArchive.h */,
+				B590E12A150CC48300832C6F /* ZKArchive.m */,
+				B590E12B150CC48300832C6F /* ZKCDHeader.h */,
+				B590E12C150CC48300832C6F /* ZKCDHeader.m */,
+				B590E12D150CC48300832C6F /* ZKCDTrailer.h */,
+				B590E12E150CC48300832C6F /* ZKCDTrailer.m */,
+				B590E12F150CC48300832C6F /* ZKCDTrailer64.h */,
+				B590E130150CC48300832C6F /* ZKCDTrailer64.m */,
+				B590E131150CC48300832C6F /* ZKCDTrailer64Locator.h */,
+				B590E132150CC48300832C6F /* ZKCDTrailer64Locator.m */,
+				B590E133150CC48300832C6F /* ZKDataArchive.h */,
+				B590E134150CC48300832C6F /* ZKDataArchive.m */,
+				B590E135150CC48300832C6F /* ZKDefs.h */,
+				B590E136150CC48300832C6F /* ZKDefs.m */,
+				B590E137150CC48300832C6F /* ZKFileArchive.h */,
+				B590E138150CC48300832C6F /* ZKFileArchive.m */,
+				B590E139150CC48300832C6F /* ZKLFHeader.h */,
+				B590E13A150CC48300832C6F /* ZKLFHeader.m */,
+				B590E13B150CC48300832C6F /* ZKLog.h */,
+				B590E13C150CC48300832C6F /* ZKLog.m */,
+			);
+			path = ZipKit;
+			sourceTree = "<group>";
+		};
+		B590E119150CC48300832C6F /* MacFUSE */ = {
+			isa = PBXGroup;
+			children = (
+				B590E11A150CC48300832C6F /* COPYING.TXT */,
+				B590E11B150CC48300832C6F /* GMAppleDouble.h */,
+				B590E11C150CC48300832C6F /* GMAppleDouble.m */,
+			);
+			path = MacFUSE;
+			sourceTree = "<group>";
+		};
+		B5EDA2EB150CEC9800F0D4DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5EDA2EC150CEC9800F0D4DB /* Checkerboard.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5F0701C150CA6660026E7ED = {
+			isa = PBXGroup;
+			children = (
+				B5F07031150CA6660026E7ED /* AppPngDecoder */,
+				B5EDA2EB150CEC9800F0D4DB /* Resources */,
+				B5F0702A150CA6660026E7ED /* Frameworks */,
+				B5F07028150CA6660026E7ED /* Products */,
+				B590E113150CC48300832C6F /* ThirdParts */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F07028150CA6660026E7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F07027150CA6660026E7ED /* AppPngDecoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F0702A150CA6660026E7ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B590E110150CC3D000832C6F /* libz.dylib */,
+				B5F0702B150CA6660026E7ED /* UIKit.framework */,
+				B5F0702D150CA6660026E7ED /* Foundation.framework */,
+				B5F0702F150CA6660026E7ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F07031150CA6660026E7ED /* AppPngDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				B5F0703A150CA6660026E7ED /* AppDelegate.h */,
+				B5F0703B150CA6660026E7ED /* AppDelegate.m */,
+				B5F0703D150CA6660026E7ED /* MainStoryboard.storyboard */,
+				B5F07040150CA6660026E7ED /* ViewController.h */,
+				B5F07041150CA6660026E7ED /* ViewController.m */,
+				B5EDA2B2150CCF9200F0D4DB /* PngFilesViewController.h */,
+				B5EDA2B3150CCF9200F0D4DB /* PngFilesViewController.m */,
+				B5EDA2E8150CEB0E00F0D4DB /* DetailViewController.h */,
+				B5EDA2E9150CEB0E00F0D4DB /* DetailViewController.m */,
+				B5F07032150CA6660026E7ED /* Supporting Files */,
+			);
+			path = AppPngDecoder;
+			sourceTree = "<group>";
+		};
+		B5F07032150CA6660026E7ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F07033150CA6660026E7ED /* AppPngDecoder-Info.plist */,
+				B5F07034150CA6660026E7ED /* InfoPlist.strings */,
+				B5F07037150CA6660026E7ED /* main.m */,
+				B5F07039150CA6660026E7ED /* AppPngDecoder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F07026150CA6660026E7ED /* AppPngDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F07045150CA6660026E7ED /* Build configuration list for PBXNativeTarget "AppPngDecoder" */;
+			buildPhases = (
+				B5F07023150CA6660026E7ED /* Sources */,
+				B5F07024150CA6660026E7ED /* Frameworks */,
+				B5F07025150CA6660026E7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppPngDecoder;
+			productName = AppPngDecoder;
+			productReference = B5F07027150CA6660026E7ED /* AppPngDecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F0701E150CA6660026E7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Openlab;
+			};
+			buildConfigurationList = B5F07021150CA6660026E7ED /* Build configuration list for PBXProject "AppPngDecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5F0701C150CA6660026E7ED;
+			productRefGroup = B5F07028150CA6660026E7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F07026150CA6660026E7ED /* AppPngDecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F07025150CA6660026E7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F07036150CA6660026E7ED /* InfoPlist.strings in Resources */,
+				B5F0703F150CA6660026E7ED /* MainStoryboard.storyboard in Resources */,
+				B590E13D150CC48300832C6F /* COPYING.TXT in Resources */,
+				B590E13E150CC48300832C6F /* Credits.html in Resources */,
+				B590E140150CC48300832C6F /* COPYING.TXT in Resources */,
+				B5EDA2ED150CEC9800F0D4DB /* Checkerboard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F07023150CA6660026E7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F07038150CA6660026E7ED /* main.m in Sources */,
+				B5F0703C150CA6660026E7ED /* AppDelegate.m in Sources */,
+				B5F07042150CA6660026E7ED /* ViewController.m in Sources */,
+				B590E13F150CC48300832C6F /* GMAppleDouble+ZKAdditions.m in Sources */,
+				B590E141150CC48300832C6F /* GMAppleDouble.m in Sources */,
+				B590E142150CC48300832C6F /* NSData+ZKAdditions.m in Sources */,
+				B590E143150CC48300832C6F /* NSDate+ZKAdditions.m in Sources */,
+				B590E144150CC48300832C6F /* NSDictionary+ZKAdditions.m in Sources */,
+				B590E145150CC48300832C6F /* NSFileHandle+ZKAdditions.m in Sources */,
+				B590E146150CC48300832C6F /* NSFileManager+ZKAdditions.m in Sources */,
+				B590E147150CC48300832C6F /* NSString+ZKAdditions.m in Sources */,
+				B590E148150CC48300832C6F /* ZKArchive.m in Sources */,
+				B590E149150CC48300832C6F /* ZKCDHeader.m in Sources */,
+				B590E14A150CC48300832C6F /* ZKCDTrailer.m in Sources */,
+				B590E14B150CC48300832C6F /* ZKCDTrailer64.m in Sources */,
+				B590E14C150CC48300832C6F /* ZKCDTrailer64Locator.m in Sources */,
+				B590E14D150CC48300832C6F /* ZKDataArchive.m in Sources */,
+				B590E14E150CC48300832C6F /* ZKDefs.m in Sources */,
+				B590E14F150CC48300832C6F /* ZKFileArchive.m in Sources */,
+				B590E150150CC48300832C6F /* ZKLFHeader.m in Sources */,
+				B590E151150CC48300832C6F /* ZKLog.m in Sources */,
+				B5EDA2B4150CCF9200F0D4DB /* PngFilesViewController.m in Sources */,
+				B5EDA2EA150CEB0E00F0D4DB /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F07034150CA6660026E7ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F07035150CA6660026E7ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5F0703D150CA6660026E7ED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F0703E150CA6660026E7ED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F07043150CA6660026E7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5F07044150CA6660026E7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F07046150CA6660026E7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppPngDecoder/AppPngDecoder-Prefix.pch";
+				INFOPLIST_FILE = "AppPngDecoder/AppPngDecoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5F07047150CA6660026E7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppPngDecoder/AppPngDecoder-Prefix.pch";
+				INFOPLIST_FILE = "AppPngDecoder/AppPngDecoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F07021150CA6660026E7ED /* Build configuration list for PBXProject "AppPngDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F07043150CA6660026E7ED /* Debug */,
+				B5F07044150CA6660026E7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F07045150CA6660026E7ED /* Build configuration list for PBXNativeTarget "AppPngDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F07046150CA6660026E7ED /* Debug */,
+				B5F07047150CA6660026E7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F0701E150CA6660026E7ED /* Project object */;
+}
