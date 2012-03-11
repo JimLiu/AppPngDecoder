@@ -1,0 +1,12 @@
+作用：
+还原App中的PNG图片为正常格式。
+
+前提条件：
+*必须模拟器运行
+*本地磁盘中要有用来提取Png图片的App
+
+使用方法：
+*模拟器中编译运行该App
+*从iTunes或者Finder中复制App的完整路径，例如：“/Users/junminliu/Music/iTunes/iTunes Media/Mobile Applications/iPhoto 1.0.ipa"
+*点击Next按钮显示列表
+*点Save All可以保存所有图片到桌面
